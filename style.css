@@ -91,3 +91,36 @@ body {
   gap: 24px;
   margin: 0px 240px;
 }
+.footer{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #111010;
+  color: #FFFFFF;
+
+}
+.footer-title{
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 128px;
+  margin-bottom: 24px;
+
+}
+.primary-color{
+color: #E55473;
+}
+.footer-des{
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 0px;
+margin-bottom: 32px;
+}
+.copyright-des{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 128px;
+  font-size: 16px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.40);
+}
+
