@@ -1,6 +1,10 @@
 body {
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
+/* banner-related-style */
 .header {
   width: 100%;
   background-size: cover;
@@ -12,12 +16,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .banner-title-head {
   color: #272727;
   font-size: 80px;
   font-weight: 800;
   margin-bottom: 32px;
 }
+
 .banner-title-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
@@ -25,5 +31,63 @@ body {
   line-height: 40px;
   width: 35%;
   margin-bottom: 32px;
-  
+}
+.btn-primary {
+  padding: 20px 43px;
+  gap: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  background: #e55473;
+}
+/* hot deal section */
+.hot-deal {
+  margin-top: 128px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 100px 0;
+  gap: 215px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.hotdeal-content h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.hotdeal-content p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.hotdeal-content span {
+  color: #e55473;
+}
+.hotdeal-content img {
+  width: 318px;
+  height: 420px;
+}
+/* social section */
+.social-section {
+  align-items: center;
+  text-align: center;
+}
+.social-section h3 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.social-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin-top: 24px;
+  font-weight: 400;
+}
+.social-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 0px 240px;
 }
